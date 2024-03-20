@@ -1,0 +1,137 @@
+.backgroundImage {
+  background-image: url('/public/images/banner/Hero.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  /* min-height: 770px; */
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+.navSection {
+  padding: 50px 130px 0px 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  /* font-family: Rubik; */
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.13px;
+  margin: 0;
+  color: #f4f7fa;
+  display: flex;
+  align-items: center;
+}
+
+.menuSection {
+  display: flex;
+  gap: 28px;
+}
+
+.contactUs {
+  display: flex;
+  flex-direction: column;
+  color: #f4f7fa;
+  justify-content: center;
+}
+.contactUs p {
+  /* font-family: Roboto Flex; */
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 0;
+}
+
+.btn {
+  padding: 12px 40px 12px 40px;
+  border-radius: 7px;
+  background-color: #365e78;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  /* font-family: Roboto Flex; */
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  cursor: pointer;
+}
+
+.bannerSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding:150px 0px 180px;
+  max-width: 755px;
+  color: #ffffff;
+  gap: 31px;
+}
+
+.bannerSection h2 {
+  /* font-family: Alexandria; */
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 73px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 0;
+}
+
+.bannerSection p {
+  /* font-family: Alexandria; */
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 0;
+}
+
+.startedBtn {
+  background-color: #247cff;
+  color: #ffffff;
+  padding: 5px 25px 5px 25px;
+  border-radius: 36px;
+  border: none;
+  box-shadow: 0px 0px 20px -2px #1b1b1b1a;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  /* font-family: Alexandria; */
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .navSection {
+    padding: 50px 97.5px 0px;
+  }
+}
+@media (max-width: 768px) {
+  .navSection {
+    padding:15px;
+  }
+  .bannerSection h2 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .bannerSection{
+    padding: 50px 15px;
+  }
+  .menuSection{
+    display: none;
+  }
+}

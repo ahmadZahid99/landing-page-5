@@ -1,0 +1,148 @@
+.bgImage {
+  background-color: #365e78;
+  background-size: cover;
+  height: 100%;
+  min-height: 385px;
+}
+
+.container {
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 120px;
+  margin: auto;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.logoSection {
+  max-width: 270px;
+  min-width: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 13px;
+}
+
+.logo {
+  /* font-family: Rubik; */
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.13px;
+  text-align: left;
+  color: #f4f7fa;
+  margin: 0;
+}
+
+.logoDesc {
+  /* font-family: Clash Display; */
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #a6a6a6;
+  margin: 0;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 240px;
+  min-width: 150px;
+}
+.newsHeading {
+  /* font-family: Clash Display; */
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  margin: 0;
+}
+
+.newsDesc {
+  /* font-family: Clash Display; */
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #a6a6a6;
+  margin: 0;
+}
+
+.newsDate {
+  /* font-family: Clash Display; */
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ff4141;
+  margin: 0;
+}
+
+.contactUs {
+  max-width: 356px;
+  min-width: 200px;
+  flex-direction: column;
+  gap: 20px;
+  color: #ffffff;
+}
+
+.desktop{
+    display: flex;
+}
+
+.mobile{
+    display: none;
+}
+
+.contactUsHeading {
+  /* font-family: Clash Display; */
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0;
+}
+
+.contactUsTitle {
+  /* font-family: Clash Display; */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0;
+}
+.contactUsSpan {
+  font-weight: 400;
+  color: #a6a6a6;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 60px 90px;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    padding: 45px 60px;
+    gap: 20px;
+  }
+  .desktop {
+      display: none;
+  }
+
+  .mobile {
+      display: flex;
+  }
+}
